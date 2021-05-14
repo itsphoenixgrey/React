@@ -1,0 +1,54 @@
+body, h2, p{
+  margin: 0;
+  padding:0;
+}
+
+body{
+  background-color: blueviolet;
+  background-image: url(./images/bg-desktop.svg);
+  padding:1em;
+}
+header img{
+  width:14%;
+  padding-top: 2em;
+}
+main{
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+main img{
+  width: 50%;
+}
+.content{
+  width: 40%;
+  padding-top: 2rem;
+}
+.content h2{
+  font-size: 45px;
+  color: white;
+}
+.content p{
+  margin: 2em 0em;
+  font-size: 15px;
+  color: white;
+}
+main button{
+  padding:1em;
+  border:none;
+  border-radius: 30px;
+  color: purple;
+  width: 40%;
+}
+footer{
+ float: right;
+ color: white;
+}
+.fab{
+  margin: 0.5em;
+
+}
+.fab:hover{
+  color:blue;
+  transition: 1s ease;
+}
